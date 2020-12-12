@@ -1,0 +1,735 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>绘画栈大赛</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+    <body>
+    	<div class="whole">
+    		<div class="top clear">
+    			<span class="logo">
+    				<img src="images/logo.jpg"/>
+    			</span>
+    			<div class="topright">
+    				<ul class="clear">
+    					<li class="topnav"><input type="button" id="homeb" value="HOME" class="teshu"/></li>
+                        <li class="topnav"><input type="button" id="menub" value="MENU" class="teshu"/></li>
+                        <li class="topnav"><input type="button" id="listb" value="LIST" class="teshu"/></li>
+                        <li class="topnav"><input type="button" id="usb" value="ABOUT US" class="teshu"/></li>
+    					
+    				</ul>
+    				<form class="form clear">
+                		<input type="text" placeholder="搜索作者" class="search" />
+         	      		<input type="button" class="submit"  />
+	            </form>
+    			</div>
+    		</div>
+    		<div class="all">
+    			<div class="banner">
+    				<div class="bantop">
+    				<ul class="banul1 clear">
+    					<li class="banli1"><a href="#" class="bana">Color</a></li>
+    					<li class="banli1"><a href="#" class="bana">Cartoon</a></li>
+    				</ul>
+    				<div class="title">
+    					Battle & Exhibit
+    				</div>
+    				<ul class="banul2 clear">
+    					<li class="banli2"><a href="#" class="bana">Scenery</a></li>
+    					<li class="banli2"><a href="#" class="bana">Paint</a></li>
+    				</ul>
+    				</div>
+    				<div class="shu">
+    				<p class="shu1"><span class="wo">比赛已进行: </span>&nbsp;&nbsp;<div class="big">  </div> </p>
+
+    				<p class="shu2"><span class="wo">累计点击量: </span>&nbsp;&nbsp;<div class="big2"> 1024011次 </div> </p>
+    				</div>
+    				<div class="banimg clear">
+    					<div class="left" id="shangchuan"><input type="button" class="s1" id="liuyan" value="我要留言"/></div>
+
+    					<div class="right" id="xiazai"><input type="button" class="s1" id="danmu" value="我要弹幕"/></div>
+    				<ul>
+    					<li class="banner-one clear"><img src="images/ban1.jpg"/></li>
+						<li class="banner-two clear"><img src="images/b.jpg"/></li>
+    				</ul>
+    				<form class="an">
+    					<input type="button" class="canjia" id="canjiaid" value="点击参加>>"  />
+    				</form>
+                    <!-- 弹幕 -->
+
+                    <div id="danmubox">
+                        <div id="box11"></div>
+                        <div id="box12">
+                            <input type="text" id="write"/>
+                            <button id="fa">发送</button>
+                        </div>
+                    </div>
+
+
+                    <!-- 登录 -->
+    				<div class="sign clear" id="signid">
+    					<span class="kuai">快速登录</span>
+
+    					<form class="lu">
+    						<span class="signups"><span class="yo">用户名：</span>
+
+                            <input type="text" name="name" placeholder="请输入用户名" class="signup1" id="input1"/></span>
+
+                            <div id="box1" class="box"></div>
+    						<span class="signupm"><span class="mi">&nbsp;&nbsp;&nbsp;密码：</span><input type="password" id="input2" name="name" placeholder="请输入密码" class="signup2"/></span>
+
+                            <div id="box2" class="box"></div>
+    						<input type="button" name="sign up" value="登录" class="signup" id="buttonid">
+    					</form>
+    				</div>
+    				</div>
+    			</div>
+    			<div class="nav">
+    			<span>风景专区展示</span>
+    			<ul class="clear">
+    				<li class="nal"><button class="item" id="bmoon">月亮主题</button></li>
+    				<li class="nal"><button class="item" id="bsky">天空主题</button></li>
+
+    				<li class="nal"><button class="item" id="bcloud">云朵主题</button></li>
+
+    				<li class="nal"><button class="item" id="bmoun">山川主题</button></li>
+
+    			</ul>
+    			</div>
+    			<div class="main">
+
+                    <div class="moon" id="moonid">
+                        <span class="moon1">天空主题</span>
+                        <span class="so"><a href="#" class="chama">搜索相似&nbsp;&nbsp;&nbsp;<img src="images/fa-search.png"/></a></span>
+                        <span class="cham"><a href="#" class="chama">查看更多</a></span>
+                        <span class="xiangguan"><a href="#" class="chama">相关推荐</a></span>
+
+                        <div class="imgm">
+
+                            <ul class="clear">
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/3.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击投票</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/4.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击投票</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/5.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击投票</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/3.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击收藏</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/4.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击收藏</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/5.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击收藏</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+    				<div class="sky" id="skyid">
+    					<span class="sky1">天空主题</span>
+    					<span class="so"><a href="#" class="chama">搜索相似&nbsp;&nbsp;&nbsp;<img src="images/fa-search.png"/></a></span>
+    					<span class="cham"><a href="#" class="chama">查看更多</a></span>
+    					<span class="xiangguan"><a href="#" class="chama">相关推荐</a></span>
+    					<div class="imgm">
+    						<ul class="clear">
+    							<li class="imgmli2">
+    								<div class="p1">
+    									<a href="#"><img src="images/1.jpg" class="imgm1"/>
+    									</a>
+
+    									<div class="p1h">
+    										<span>点击投票</span>
+    									</div>
+    								</div>
+    							</li>
+    							<li class="imgmli2">
+    								<div class="p1">
+    									<a href="#"><img src="images/2.jpg" class="imgm1"/>
+    									</a>
+
+    									<div class="p1h">
+    										<span>点击投票</span>
+    									</div>
+    								</div>
+    							</li>
+    							<li class="imgmli2">
+    								<div class="p1">
+    									<a href="#"><img src="images/7.jpg" class="imgm1"/>
+    									</a>
+
+    									<div class="p1h">
+    										<span>点击投票</span>
+    									</div>
+    								</div>
+    							</li>
+
+    							<li class="imgmli2">
+    								<div class="p1">
+    									<a href="#"><img src="images/1.jpg" class="imgm1"/>
+    									</a>
+
+    									<div class="p1h">
+    										<span>点击收藏</span>
+    									</div>
+    								</div>
+    							</li>
+    							<li class="imgmli2">
+    								<div class="p1">
+    									<a href="#"><img src="images/2.jpg" class="imgm1"/>
+    									</a>
+
+    									<div class="p1h">
+    										<span>点击收藏</span>
+    									</div>
+    								</div>
+    							</li>
+    							<li class="imgmli2">
+    								<div class="p1">
+    									<a href="#"><img src="images/7.jpg" class="imgm1"/>
+    									</a>
+
+    									<div class="p1h">
+    										<span>点击收藏</span>
+    									</div>
+    								</div>
+    							</li>
+    							
+    						</ul>
+    					</div>
+    				</div>
+
+
+    				<div class="cloud" id="cloudid">
+                        <span class="cloud1">云朵主题</span>
+
+                        <span class="so"><a href="#" class="chama">搜索相似&nbsp;&nbsp;&nbsp;<img src="images/fa-search.png"/></a></span>
+                        
+                        <span class="cham"><a href="#" class="chama">查看更多</a></span>
+                        <span class="xiangguan"><a href="#" class="chama">相关推荐</a></span>
+                        <div class="imgm">
+                            <ul class="clear">
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/6.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击投票</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/7.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击投票</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/8.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击投票</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/6.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击收藏</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/7.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击收藏</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/8.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击收藏</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="moun" id="mounid">
+                        <span class="moun1">山川主题</span>
+
+                        <span class="so"><a href="#" class="chama">搜索相似&nbsp;&nbsp;&nbsp;<img src="images/fa-search.png"/></a></span>
+
+                        <span class="cham"><a href="#" class="chama">查看更多</a></span>
+                        <span class="xiangguan"><a href="#" class="chama">相关推荐</a></span>
+                        <div class="imgm">
+                            <ul class="clear">
+                                <li class="imgmli2">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/11.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击投票</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli2">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/12.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击投票</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli2">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/13.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击投票</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="imgmli2">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/11.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击收藏</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli2">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/12.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击收藏</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="imgmli2">
+                                    <div class="p1">
+                                        <a href="#"><img src="images/13.jpg" class="imgm1"/>
+                                        </a>
+
+                                        <div class="p1h">
+                                            <span>点击收藏</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+    				
+
+    			</div>
+
+    		</div>
+    	</div>
+    </div>
+    		<div class="footer">
+    			<div class="bot">
+    				<img src="images/logo.jpg" class="botimg"/>
+    				<ul class="botul1">
+    					<li class="ping">评委</li>
+
+    					<li><input type="button" id="pw" value="评委"/></li>
+    					<li><input type="button" id="pw2" value="3D评委"/></li>
+    					<li><input type="button" id="pw3" value="AUI评委"/></li>
+    				</ul>
+    				<ul class="botul2">
+    					<li class="jiang">奖项设置</li>
+    					<li><input type="button" id="jx2" value="2D奖项设置"/></li>
+    					<li><input type="button" id="jx3" value="3D奖项设置"/></li>
+    					<li><input type="button" id="jx4" value="AUI奖项设置"/></li>
+    				</ul>
+    				<ul class="botul3">
+    					<li class="gui">大赛规则</li>
+    					<li><input type="button" id="gz2" value="2D大赛规则"/></li>
+    					<li><input type="button" id="gz3" value="3D大赛规则"/></li>
+    					<li><input type="button" id="gz4" value="AUI大赛规则"/></li>
+    				</ul>
+    			</div>
+    			<div class="more">
+    				<span><input type="button" class="morea" id="morei"value="点击了解更多比赛信息"></span>
+    			</div>
+    			<div class="sai">
+					<ul class="clear">
+						<li class="saiqvli"><a href="#" class="saiqv">河北赛区</a></li>
+						<li class="saiqvli"><a href="#" class="saiqv">上海赛区</a></li>
+						<li class="saiqvli"><a href="#" class="saiqv">湖南赛区</a></li>
+						<li class="saiqvli" style="border-right:none;"><a href="#" class="saiqv">河南赛区</a></li>
+					</ul>
+    			</div>
+    			<div class="banquan">
+    				<p><a href="#" class="help">关于我们</a></p>
+    				<p><a href="#" class="help1">帮助中心</a></p>
+    				<p class="help2">|</p>
+    				<span class="sheng">© 2019 软件学院章怡 版权所有，并保留所有权利。冀ICP备201982827号-1</span>
+    			</div>
+
+    		</div>
+
+    	</div>
+
+
+        <script type="text/javascript">
+            var big=document.getElementsByClassName("big")[0];
+
+            var big2=document.getElementsByClassName("big2")[0];
+            var body=document.getElementsByTagName("body")[0];
+            var shangchuan=document.getElementById("shangchuan");
+            var xiazai=document.getElementById("xiazai");
+            var canjia=document.getElementById("canjiaid");
+            var signid=document.getElementById("signid");
+            var danmu=document.getElementById("danmu");
+            var danmubox=document.getElementById("danmubox");
+            danmubox.style.display='none';
+            signid.style.display='none';
+            dianji=1024011;
+            function add0(n){
+                return n<10?"0"+n:n;
+            }
+            time();
+            function time(){
+
+                var d=new Date();
+                //设置开始时间
+                d.setFullYear(2020,10,1);
+                var h=d.getDate();
+                var m=d.getMinutes();
+                var s=d.getSeconds();
+                big.innerHTML=add0(h)+"天"+add0(m)+"分"+add0(s)+"秒";
+            }
+            setInterval(time,1000);
+
+            //设置点击量
+            body.onclick=function(){
+                dianji++;
+                big2.innerHTML=dianji+"次";
+            }
+
+            
+            danmu.onclick=function(){
+                if(danmubox.style.display=='block'){
+                    danmubox.style.display='none';
+                    
+                }else{
+                    danmubox.style.display='block';
+                    signid.style.display='none'
+                }
+            }
+
+
+            canjia.onclick=function(){
+                if(signid.style.display=='none'){
+                    signid.style.display='block';
+                    danmubox.style.display='none';                   
+                }else{
+                    signid.style.display='none';
+                }
+            }
+
+
+
+        
+        </script>
+
+
+        <script type="text/javascript">
+        var click1=document.getElementById("input1");
+        click1.onfocus=function(){
+            box1.innerHTML="<p style='font-size:20px'>支持中文数字</p>";
+        }
+        click1.onblur=function(){
+            if(input1.value==''){
+                box1.innerHTML="<p style='font-size:20px'>用户名不能为空</p>";
+            }else{
+                box1.innerHTML='';
+            }       
+        }
+
+        // 用户名不能为空
+
+        var click2=document.getElementById("input2");
+        click2.onfocus=function(){
+            box2.innerHTML="<p style='font-size:20px'>请确保密码输入正确</p>";
+        }
+
+        click2.onblur=function(){
+            if(input2.value==''){
+                box2.innerHTML="<p style='font-size:20px'>密码不能为空</p>";
+            }else{
+                box2.innerHTML='';
+            }       
+        }
+        //密码不能为空
+
+        var button=document.getElementById("buttonid");
+        button.onclick=function(){
+            if(input1.value!='' && input2.value!=''){
+                var str1="用户名："+input1.value;
+                var str2="密码："+input2.value;
+
+            }
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        var moonid=document.getElementById("moonid");
+        var skyid=document.getElementById("skyid");
+        var cloudid=document.getElementById("cloudid");
+        var mounid=document.getElementById("mounid");
+
+        var bmoon=document.getElementById("bmoon");
+        var bsky=document.getElementById("bsky");
+        var bcloud=document.getElementById("bcloud");
+        var bmoun=document.getElementById("bmoun");
+
+        moonid.style.display='none';
+        skyid.style.display='none';
+        cloudid.style.display='none';
+        mounid.style.display='block';
+
+        bmoon.onclick=function(){
+            if(moonid.style.display='none'){
+                moonid.style.display='block';
+                skyid.style.display='none';
+                cloudid.style.display='none';
+                mounid.style.display='none';
+            }
+        }
+
+        bsky.onclick=function(){
+            if(skyid.style.display='none'){
+                moonid.style.display='none';
+                skyid.style.display='block';
+                cloudid.style.display='none';
+                mounid.style.display='none';
+            }
+        }
+
+        bcloud.onclick=function(){
+            if(cloudid.style.display='none'){
+                moonid.style.display='none';
+                skyid.style.display='none';
+                cloudid.style.display='block';
+                mounid.style.display='none';
+            }
+        }
+        
+        bmoun.onclick=function(){
+            if(mounid.style.display='none'){
+                moonid.style.display='none';
+                skyid.style.display='none';
+                cloudid.style.display='none';
+                mounid.style.display='block';
+            }
+        }
+        
+
+    </script>
+
+    <script type="text/javascript">
+    var pw=document.getElementById("pw");
+    var pw2=document.getElementById("pw2");
+    var pw3=document.getElementById("pw3");
+    var jx2=document.getElementById("jx2");
+    var jx3=document.getElementById("jx3");
+    var jx4=document.getElementById("jx4");
+    var gz2=document.getElementById("gz2");
+    var gz3=document.getElementById("gz3");
+    var gz4=document.getElementById("gz4");
+
+    var listb=document.getElementById("listb");
+    var usb=document.getElementById("usb");
+    var menub=document.getElementById("menub");
+    var homeb=document.getElementById("homeb");
+
+    pw.onclick=function(){
+        window.alert("评委有：XXX XXX XXXX");
+    }
+    pw2.onclick=function(){
+        window.alert("3D赛道评委有：XXX XXX XXXX");
+    }
+    pw3.onclick=function(){
+        window.alert("AUI赛道评委有：XXX XXX XXXX");
+    }
+
+    jx2.onclick=function(){
+        window.alert("2D赛道奖项设置：一等奖：10000元奖金     二等奖：5000元奖金        三等奖：2500元奖金");
+    }
+    jx3.onclick=function(){
+        window.alert("3D赛道奖项设置：一等奖：20000元奖金     二等奖：6000元奖金        三等奖：4500元奖金");
+    }
+    jx4.onclick=function(){
+        window.alert("AUI赛道奖项设置：一等奖：30000元奖金     二等奖：9000元奖金        三等奖：8500元奖金");
+    }
+
+    gz2.onclick=function(){
+        window.alert("2D赛道规则：XXX XXX XXXX");
+    }
+    gz3.onclick=function(){
+        window.alert("2D赛道规则：XXX XXX XXXX");
+    }
+    gz4.onclick=function(){
+        window.alert("2D赛道规则：XXX XXX XXXX");
+    }
+
+
+    usb.onclick=function(){
+        window.alert("改页面暂未开放，请您耐心等待哦~");
+    }
+    listb.onclick=function(){
+        window.alert("改页面暂未开放，请您耐心等待哦~");
+    }
+    menub.onclick=function(){
+        window.alert("改页面暂未开放，请您耐心等待哦~");
+    }
+    homeb.onclick=function(){
+        window.alert("改页面暂未开放，请您耐心等待哦~");
+    }
+
+
+    </script>
+
+    <script type="text/javascript">
+    var liuyan=document.getElementById("liuyan");
+    
+
+    liuyan.onclick=function(){
+        var liuyancontent=prompt('请输入您的留言:');
+        if(liuyancontent.value!=''){
+            alert("不能输入空白哦！")
+        }else{
+            alert("感谢您的建议，我们会及时改善相关问题。");
+        }
+    }
+    
+    </script>
+
+    <script type="text/javascript">
+        fa=document.getElementById("fa");
+        write=document.getElementById("write");
+        hide=document.getElementById("hide");
+        box11=document.getElementById("box11");
+
+
+        //回车发送
+        write.onkeypress=function(e){
+
+            if(e.keyCode==13){
+                var span=document.createElement('span');
+                span.innerHTML=""+this.value;
+                span.style.top=Math.random()*500+'px';
+                span.style.left="1200px";
+                box11.appendChild(span);
+                var timer=setInterval(function(){
+                    span.style.left=parseInt(span.style.left)-1+'px';
+                    if(parseInt(span.style.left)<-span.offsetWidth){
+                        box11.removeChild(span);
+                        clearInterval(timer);
+                    }
+                },10);
+
+            }
+        }
+
+        fa.onclick=function(e){
+            var span=document.createElement('span');
+            span.innerHTML=""+write.value;
+            span.style.top=Math.random()*500+'px';
+            span.style.left="1200px";
+            box11.appendChild(span);
+            var timer=setInterval(function(){
+                span.style.left=parseInt(span.style.left)-1+'px';
+                if(parseInt(span.style.left)<-span.offsetWidth){
+                    box11.removeChild(span);
+                    clearInterval(timer);
+                }
+            },10);
+        }
+
+
+        </script>
+    </body>
+</html>
